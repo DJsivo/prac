@@ -13,6 +13,6 @@ async def root(request: Request):
     return str(html.html[
         html.head[html.title[THEME]],
         html.body[html.h1[THEME],
-        html.a(href="http://127.0.0.1:8002/")["Перейти к интерфейсу темы"]         
+        html.a(href="http://client.local/")["Перейти к интерфейсу"]         
         ]
     ])
