@@ -1,0 +1,18 @@
+body {
+    font-family: Apple Chancery, cursive;
+    margin: 20px;
+}
+
+#button {
+    background-color: #2e49f6;  /* приятный голубой */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+}
