@@ -12,5 +12,7 @@ async def root(request: Request):
         raise HTTPException(status_code=406, detail="Not Acceptable")
     return str(html.html[
         html.head[html.title[THEME]],
-        html.body[html.h1[THEME]]
+        html.body[html.h1[THEME],
+        html.a(href="http://127.0.0.1:8002/")["Перейти к интерфейсу темы"]         
+        ]
     ])
